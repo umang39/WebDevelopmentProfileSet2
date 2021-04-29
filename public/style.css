@@ -1,0 +1,79 @@
+  
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	
+	box-sizing: border-box; 
+}
+
+html, body  { 
+	height: 100%;
+	width: 100%;
+}
+
+body {
+    color:#3abdb9;
+    background-color: #191d28;
+    font-family: 'Oswald', sans-serif;
+  line-height: 1.4;
+}
+
+
+
+.eqWrap {
+	display: flex;
+}
+
+.eq {
+    background-color: #191d28;
+	padding: 10px;
+    align-self: center;
+
+}
+
+/* .eq:nth-of-type(odd) {
+	background: yellow;
+}
+
+.eq:nth-of-type(even) {
+	background: lightblue;
+} */
+
+
+.equalHMWrap {
+	justify-content: space-between;
+}
+
+.equalHM {
+   
+	width: 32%;
+}
+
+h4.inr {
+  
+    color : white;
+}
+
+span.typ{
+	margin: 1%;
+	padding:1%;
+	padding-right: 2%;
+	border-radius: 10px;
+	background-color :#2e3241;
+}
+th{
+	color: #57595d;
+}
+.rows {
+
+
+	background-color: #2e3241
+}
+.cols{
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	color : white;
+}
+table{
+	overflow: auto;
+}
